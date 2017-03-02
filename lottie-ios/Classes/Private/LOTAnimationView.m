@@ -259,23 +259,11 @@
 
 # pragma mark - Internal Methods
 
-#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
-
 - (void)_initializeAnimationContainer {
     _timingLayer = [CALayer new];
     [self.layer addSublayer:_timingLayer];
     self.clipsToBounds = YES;
 }
-
-#else
-
-- (void)_initializeAnimationContainer {
-    self.wantsLayer = YES;
-    _timingLayer = [CALayer new];
-    [self.layer addSublayer:_timingLayer];
-}
-
-#endif
 
 - (void)_setupWithSceneModel:(LOTComposition *)model restoreAnimationState:(BOOL)restoreAnimation {
   _sceneModel = model;
@@ -430,8 +418,6 @@
 
 # pragma mark - Overrides
 
-#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
-
 #define LOTViewContentMode UIViewContentMode
 #define LOTViewContentModeScaleToFill UIViewContentModeScaleToFill
 #define LOTViewContentModeScaleAspectFit UIViewContentModeScaleAspectFit
@@ -471,43 +457,6 @@
   [super layoutSubviews];
   [self _layout];
 }
-
-#else
-    
-- (void)setCompletionBlock:(LOTAnimationCompletionBlock)completionBlock {
-    if (completionBlock) {
-        _completionBlock = ^(BOOL finished) {
-            dispatch_async(dispatch_get_main_queue(), ^{ completionBlock(finished); });
-        };
-    }
-    else {
-        _completionBlock = nil;
-    }
-}
-
-- (void)setContentMode:(LOTViewContentMode)contentMode {
-  _contentMode = contentMode;
-  [self setNeedsLayout];
-}
-
-- (void)setNeedsLayout {
-    self.needsLayout = YES;
-}
-
-- (BOOL)isFlipped {
-    return YES;
-}
-
-- (BOOL)wantsUpdateLayer {
-    return YES;
-}
-
-- (void)layout {
-    [super layout];
-    [self _layout];
-}
-
-#endif
 
 - (CGSize)intrinsicContentSize {
     return _sceneModel.compBounds.size;

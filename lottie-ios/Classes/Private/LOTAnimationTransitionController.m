@@ -6,8 +6,6 @@
 //  Copyright © 2017 Brandon Withrow. All rights reserved.
 //
 
-#if TARGET_OS_IPHONE || TARGET_IPHONE_SIMULATOR
-
 #import "LOTAnimationTransitionController.h"
 #import "LOTAnimationView.h"
 
@@ -91,5 +89,3 @@
 }
 
 @end
-
-#endif

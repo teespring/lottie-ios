@@ -32,8 +32,4 @@ typedef void (^LOTAnimationCompletionBlock)(BOOL animationFinished);
 - (void)addSubview:(LOTView *)view
       toLayerNamed:(NSString *)layer;
 
-#if !TARGET_OS_IPHONE && !TARGET_IPHONE_SIMULATOR
-@property (nonatomic) LOTViewContentMode contentMode;
-#endif
-
 @end
