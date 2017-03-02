@@ -6,8 +6,8 @@
 //
 //
 
+#import <UIKit/UIKit.h>
 #import "LOTCompositionLayer.h"
-#import "LOTPlatformCompat.h"
 #import "LOTLayerView.h"
 #import "LOTAnimationView_Internal.h"
 #import "LOTAsset.h"

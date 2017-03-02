@@ -14,3 +14,8 @@ build/
 Lottie-Screenshot/Lottie-Screenshot.xcworkspace/xcuserdata/
 Lottie-Screenshot/Lottie-Screenshot.xcodeproj/xcuserdata/
 Lottie-Screenshot/Pods/Pods.xcodeproj/xcuserdata/
+
+.DS_Store
+**/.DSStore
+
+/Carthage/

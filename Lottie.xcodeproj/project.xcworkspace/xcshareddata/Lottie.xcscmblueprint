@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "63600FF07CAC4A2B521A9BCC4448135ABF3B8CB3",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1F3F3302792CE8BE2BD568695E9145F867FF720D" : 9223372036854775807,
+    "63600FF07CAC4A2B521A9BCC4448135ABF3B8CB3" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "CE98F698-0281-40F4-9444-04B561BAA480",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1F3F3302792CE8BE2BD568695E9145F867FF720D" : "..\/..",
+    "63600FF07CAC4A2B521A9BCC4448135ABF3B8CB3" : "lottie-ios\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Lottie",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Lottie.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:teespring\/apple-teespring.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1F3F3302792CE8BE2BD568695E9145F867FF720D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/teespring\/lottie-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "63600FF07CAC4A2B521A9BCC4448135ABF3B8CB3"
+    }
+  ]
+}

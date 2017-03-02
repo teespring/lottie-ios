@@ -6,7 +6,7 @@
 //  Copyright © 2016 Brandon Withrow. All rights reserved.
 //
 
-#import "LOTPlatformCompat.h"
+#import <UIKit/UIKit.h>
 #import "LOTAnimatablePointValue.h"
 #import "CGGeometry+LOTAdditions.h"
 

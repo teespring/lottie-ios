@@ -1,3 +1,5 @@
+> The purpose of this fork is to assure Carthage compatibility for Lottie. It removes macOS support. At some point we hope to contribute a real fix back upstream. 
+
 # Lottie for iOS, MacOS (and [Android](https://github.com/airbnb/lottie-android) and [React Native](https://github.com/airbnb/lottie-react-native))
 
 Lottie is a mobile library for Android and iOS that parses [Adobe After Effects](http://www.adobe.com/products/aftereffects.html) animations exported as json with [bodymovin](https://github.com/bodymovin/bodymovin) and renders the vector animations natively on mobile and through React Native!

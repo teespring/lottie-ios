@@ -6,8 +6,8 @@
 //  Copyright © 2016 Brandon Withrow. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import "LOTRectShapeLayer.h"
-#import "LOTPlatformCompat.h"
 #import "CAAnimationGroup+LOTAnimatableGroup.h"
 #import "LOTStrokeShapeLayer.h"
 #import "LOTHelpers.h"

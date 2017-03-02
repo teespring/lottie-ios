@@ -6,8 +6,8 @@
 //  Copyright © 2015 Brandon Withrow. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 #import "LOTAnimationView.h"
-#import "LOTPlatformCompat.h"
 #import "LOTLayerView.h"
 #import "LOTModels.h"
 #import "LOTHelpers.h"

@@ -6,8 +6,7 @@
 //  Copyright © 2016 Brandon Withrow. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-#import "LOTPlatformCompat.h"
+#import <UIKit/UIKit.h>
 #import "LOTAnimatableValue.h"
 
 @interface LOTAnimatableShapeValue : NSObject <LOTAnimatableValue>

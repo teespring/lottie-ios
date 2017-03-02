@@ -6,9 +6,8 @@
 //  Copyright © 2015 Brandon Withrow. All rights reserved.
 //
 
-#import "LOTPlatformCompat.h"
+#import <UIKit/UIKit.h>
 #import "LOTAnimatableLayer.h"
-
 #import "LOTModels.h"
 
 @interface LOTLayerView : LOTAnimatableLayer

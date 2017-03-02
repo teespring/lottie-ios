@@ -6,10 +6,9 @@
 //  Copyright © 2016 Brandon Withrow. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
 #import "LOTAnimatableValue.h"
-#import "LOTPlatformCompat.h"
 
 @interface LOTAnimatableColorValue : NSObject <LOTAnimatableValue>
 

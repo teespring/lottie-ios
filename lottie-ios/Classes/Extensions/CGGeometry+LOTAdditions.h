@@ -1,5 +1,5 @@
 
-#import "LOTPlatformCompat.h"
+#import <UIKit/UIKit.h>
 #import <CoreGraphics/CoreGraphics.h>
 #import <GLKit/GLKMathTypes.h>
 #import <GLKit/GLKit.h>
